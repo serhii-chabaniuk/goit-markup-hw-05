@@ -11,16 +11,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* temporary decision */
-
-/* .container {
-  outline: 1px dashed red;
-}
-
-.ul-portfolio .item {
-  outline: 1px solid red;
-} */
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
