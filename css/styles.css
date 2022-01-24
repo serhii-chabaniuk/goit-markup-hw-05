@@ -11,6 +11,16 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* temporary decision */
+
+/* .container {
+  outline: 1px dashed red;
+}
+
+.ul-portfolio .item {
+  outline: 1px solid red;
+} */
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -36,8 +46,7 @@ body {
 /* header */
 
 .header {
-  max-width: 1600px;
-  margin: 0px auto;
+  border-bottom: 1px solid #ececec;
 }
 
 .container.head {
@@ -191,8 +200,6 @@ body {
 
 .section-advantage {
   padding: 94px 0px;
-  margin: 0px auto;
-  max-width: 1600px;
 }
 
 .ul-advantage {
@@ -261,8 +268,6 @@ body {
 
 .section-doing {
   padding-bottom: 94px;
-  margin: 0px auto;
-  max-width: 1600px;
 }
 
 .title-doing {
@@ -291,8 +296,6 @@ body {
 
 .section-team {
   padding: 94px 0px;
-  margin: 0px auto;
-  max-width: 1600px;
   background-color: #f5f4fa;
 }
 
@@ -370,7 +373,6 @@ body {
 
 .social-icon {
   fill: #afb1b8;
-  vertical-align: bottom;
 }
 
 .instagram:hover > .social-icon,
@@ -403,8 +405,6 @@ body {
 
 .section-clients {
   padding: 94px 0px;
-  margin: 0px auto;
-  max-width: 1600px;
 }
 
 .h2-clients {
@@ -459,8 +459,6 @@ body {
 
 .footer {
   padding: 60px 0px;
-  margin: 0px auto;
-  max-width: 1600px;
   background-color: #2f303a;
 }
 
@@ -534,14 +532,13 @@ body {
 .footer .social-icon {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white-color);
 }
 
 /* main portfolio */
 
 .section-portfolio {
   padding: 94px 0px;
-  margin: 0px auto;
-  max-width: 1600px;
 }
 
 .ul-filter {
